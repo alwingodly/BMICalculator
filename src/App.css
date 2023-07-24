@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #000000;
+  font-family: cursive;
+}
+
+* {
+  margin: 0;
+  padding: 5px;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.BMICalculator-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  
+}
